@@ -33,6 +33,14 @@ This project is an authentication example built with Node.js, Express, and Mongo
    ```bash
    npm install
    ```
+   or
+   ```bash
+   pnpm install
+   ```
+   or
+   ```
+   yarn add
+   ```
 4. Create a `.env` file in the root directory and add your MongoDB URI and JWT secret:
    ```plaintext
    MONGO_URI=your_mongo_uri
@@ -47,14 +55,39 @@ To start the server, run:
 npm start
 ```
 
+or
+
+```bash
+pnpm star
+```
+
+or
+
+```bash
+yarn start
+```
+
 The server will be running on `http://localhost:3000`.
 
 ### Running Tests
 
 To run the tests, use:
 
-````bash
+```bash
 npm test
+```
+
+or
+
+```bash
+pnpm test
+```
+
+or
+
+```bash
+yarn test
+```
 
 ## API Documentation
 
@@ -63,6 +96,7 @@ npm test
 - **Endpoint**: `/api/auth/signup`
 - **Method**: POST
 - **Request Body**:
+
   ```json
   {
     "name": "string",
@@ -71,7 +105,7 @@ npm test
     "username": "string",
     "role": "user" | "admin"
   }
-````
+  ```
 
 - **Response**:
   - `201 Created` on success
@@ -146,4 +180,4 @@ interface CustomRequest extends express.Request {
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the MIT License.
