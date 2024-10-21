@@ -58,7 +58,7 @@ npm start
 or
 
 ```bash
-pnpm star
+pnpm start
 ```
 
 or
