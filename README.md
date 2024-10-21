@@ -22,7 +22,7 @@ This project is an authentication example built with Node.js, Express, and Mongo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/auth-example.git
+   git clone https://github.com/mathisdev7/auth-example
    ```
 
 2. Navigate to the project directory:
